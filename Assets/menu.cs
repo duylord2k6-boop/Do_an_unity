@@ -1,0 +1,15 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class menu : MonoBehaviour
+{
+    public void playgame()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
+    public void quitgame()
+    {
+        Application.Quit();
+    }
+}
